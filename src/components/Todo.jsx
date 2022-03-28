@@ -60,6 +60,7 @@ const Todo = ({ todo, updateTodo, deleteTodo }) => {
     <Box my="5">
       <Flex alignItems="center">
         <Checkbox
+          colorScheme="green"
           mr="2"
           isChecked={todo.done}
           onChange={() => updateTodo(todo.id, { ...todo, done: !todo.done })}
