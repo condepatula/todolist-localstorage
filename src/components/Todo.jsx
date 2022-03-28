@@ -21,6 +21,7 @@ const Todo = ({ todo, updateTodo, deleteTodo }) => {
       <Box>
         <Flex>
           <Input
+            autoFocus
             variant="flushed"
             type="text"
             fontSize="sm"

@@ -14,7 +14,7 @@ const Filter = ({ setFilter }) => {
         value={value}
         my="2"
       >
-        <Stack direction="row" color="gray.600">
+        <Stack direction="row" color="gray.600" spacing={10}>
           <Radio value="ALL">ALL</Radio>
           <Radio value="PENDING">PENDING</Radio>
           <Radio value="DONE">DONE</Radio>

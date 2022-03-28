@@ -34,6 +34,7 @@ const AddTodo = ({ addTodo }) => {
       >
         <Flex alignItems="center">
           <Input
+            autoFocus
             size="md"
             mr="4"
             variant="flushed"
